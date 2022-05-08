@@ -2,6 +2,15 @@
 
 This repo is inspired by the <a href="https://www.amazon.com/Docker-Data-Science-Extensible-Infrastructure/dp/1484230116" target="_blank">Docker for Datascience book</a>. It's a Docker image with a data science environment based on the <a href="https://hub.docker.com/r/jupyter/datascience-notebook/" target="_blank">jupyter/datascience-notebook </a>with pandas, matplotlib, scipy, seaborn and scikit-learn pre-installed.
 
+## Works on:
+
+- :white_check_mark: Mac os (tested) 
+- :question: Windows 10 (not tested)
+- :question: Ubuntu (not tested)
+
+## Requirements:
+1. Docker [link to install)](https://runnable.com/docker/install-docker-on-macos)
+
 ## To start new Data Science project:
 
 1. Copy this repo
@@ -10,7 +19,7 @@ Create a new directory, cd into it, and then run
 
 ```
 git init
-git pull https://github.com/glebmikha/data-science-project-template.git
+git pull https://github.com/nefomichev/ds-project-template.git
 ```
 
 Or you can just download it as a zip and use it without git.
